@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>اتصل بنا - فادي للياقة البدنية</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">الصفحة الرئيسية</a></li>
+            <li><a href="programs.html">برامج التمارين</a></li>
+            <li><a href="nutrition.html">النصائح الغذائية</a></li>
+            <li><a href="goals.html">اهداف اللياقة</a></li>
+            <li><a href="tips.html">نصائح عامة</a></li>
+            <li><a href="contact.html">اتصل بنا</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>اتصل بنا</h1>
+    </header>
+    <section>
+        <form id="contactForm">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">الرسالة:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">إرسال</button>
+        </form>
+        <div id="formMessage" style="display:none; color:green;">تم إرسال رسالتك بنجاح! شكراً لتواصلك معنا.</div>
+    </section>
+    <footer>
+        <p>&copy; 2025 فادي للياقة البدنية</p>
+    </footer>
+</body>
+</html>
